@@ -207,11 +207,12 @@
     }
   }
 
-  @media screen　and (max-width: 480px){
+  @media screen and (max-width: 480px){
       
   .copyrights{
  text-align: center;
-   width: 1000px;     }
+ width: 1000px;
+}
   }
 
   @media screen and (max-width: 480px){
