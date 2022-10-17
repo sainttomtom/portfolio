@@ -4,11 +4,6 @@ body {
   height: 100vh;
 }
 
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
-
 /* <!-- header begin --> */
 
 header > div {
