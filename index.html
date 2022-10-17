@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Tom's portfolio</title>
-<link rel=”stylesheet” href=”https://sainttomtom.github.io/portfolio/style.css” type="text/css" media="screen and (max-width:480px)" />  
-  </head>
-<body id="all">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tom's portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
 
   <!-- header begin -->
   <header>
 
-    <div  class="header_content">
+    <div>
       <ul class="list">
           <li><a href="#">PROFILE</a></li>
           <li><a href="#">WORKS</a></li>
@@ -27,66 +29,69 @@
   
   <!-- main begin -->  
   <main>
-  <div>
+    <div class="mainImageWrapper">
       <img class="main_image" src="https://github.com/sainttomtom/portfolio/blob/main/portfolioimage.png?raw=true">
   </div>
   </main>
 
-
- <div>
-  <section>
-        <h1 id="NEWS">NEWS</h1>
-        <div class="news_content">
-        <dl>
-              <dt>2022年10月</dt>  
-              <dd>ポートフォリオサイト開設</dd>
-              <dt>2022年9月</dt>  
-              <dd>HTML&CSS学習開始</dd>
-              <dt>2022年9月</dt>  
-              <dd>webデザイン学習開始</dd>
-        </dl>
-      </div>
+<div>
+  <section id="news">
+    <ul>
+      <li>2022年10月</li>
+      <li>ポートフォリオサイト開設</li>
+      <li>2022年9月</li>
+      <li>HTML&CSS学習開始</li>
+      <li>webデザイン学習開始</li>
+    </ul>
   </section>
 </div>
       
 
 
-<main>
-
 <div class="container">
+  <!-- TL 載せたくなるよね おれも一番最初やった -->
+  <section id="twitter">
+    <h1 class="twmojisize">TWITTER</h1>
+    <a
+      class="twitter-timeline"
+      data-lang="en"
+      data-width="500"
+      data-height="2956"
+      data-theme="light"
+      href="https://twitter.com/shibuyadada?ref_src=twsrc%5Etfw"
+      >Tweets by shibuyadada</a
+    >
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+  </section>
 
-<section id="TWITTER">
-  <h1 class="twmojisize" >TWITTER</h1>
-  <a class="twitter-timeline" data-lang="en" data-width="500" data-height="2956" data-theme="light" href="https://twitter.com/shibuyadada?ref_src=twsrc%5Etfw">Tweets by shibuyadada</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section>
-
-
-
-<section id="INSTAGRAM">
-  <h1 class="inmojisize">INSTAGRAM</h1>
-<iframe src="https://snapwidget.com/embed/1012481" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:530px; height:2956px"></iframe>
-</section>
-
+  <section id="instagram">
+    <h1 class="inmojisize">INSTAGRAM</h1>
+    <iframe
+      src="https://snapwidget.com/embed/1012481"
+      class="snapwidget-widget"
+      allowtransparency="true"
+      frameborder="0"
+      scrolling="no"
+      style="border: none; overflow: hidden; width: 530px; height: 2956px"
+    ></iframe>
+  </section>
 </div>
 
+<!-- main end -->
 
-  </main>
+<!-- footer begin -->
+<footer>
+<p>
 
-  <!-- main end -->
+  <span>TOPへ</span>
 
-</body>
-
-
-  <!-- footer begin -->
-<footer id="footer">
-
-<small>TOPへ</small>
-
-<small class="copyrights">&copy;Tom</small>
-
-
+  <small id="copyrights">&copy;Tom</small>
+</p>
 </footer>
-  <!-- footer end -->
-
-
+<!-- footer end -->
+</body>
 </html>
