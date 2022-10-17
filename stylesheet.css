@@ -98,14 +98,14 @@
 
 
   /** 480px以下の場合のCSS */
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     #all{
   margin-left: 200px;  
       }
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .header_content{
     width: 1000px;
     display: flex;
@@ -117,7 +117,7 @@
 
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .list{
  width: 1000px;
     display: flex;
@@ -131,7 +131,7 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .main_image{
   width: 1000px;
   height: 600px;      }
@@ -139,7 +139,7 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .container {
   display: flex; 
     flex-direction: row;
@@ -150,7 +150,7 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .news_content{
  text-align: center;
     width:1000px;
@@ -159,7 +159,7 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     #NEWS{
  width: 1000px;
     font-size:60px;
@@ -170,7 +170,7 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
       
   #TWITTER{
  text-align: center;
@@ -179,7 +179,7 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .twitter-timeline{
   width: 500px;
       }
@@ -187,7 +187,7 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     #INSTAGRAM{
  text-align: center;
     font-size:500px;      }
@@ -195,21 +195,21 @@
   }
 
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .twmojisize{
  font-size: 60px;
     margin-left: 110px;    }
     
   }
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     .inmojisize{
  font-size: 60px;
     margin-left: 50px;    }
     
   }
 
-  @media all and (max-width: 480px){
+  @media screen　and (max-width: 480px){
       
   .copyrights{
  text-align: center;
@@ -217,7 +217,7 @@
     
   }
 
-  @media all and (max-width: 480px){
+  @media screen and (max-width: 480px){
     #footer{
 display: flex;
   flex-direction: column;
