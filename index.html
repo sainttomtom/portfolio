@@ -1,92 +1,109 @@
+<!-- 
+  html css のタグの終了位置などを揃える
+  構造を意識する
+ -->
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Tom's portfolio</title>
-<link rel=”stylesheet” href=”https://sainttomtom.github.io/portfolio/style.css” type="text/css" media="screen and (max-width:480px)" />  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tom's portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-<body id="all">
-
-  <!-- header begin -->
-  <header>
-
-    <div  class="header_content">
-      <ul class="list">
+  <body>
+    <!-- header begin -->
+    <header>
+      <div>
+        <!-- 
+          不要な id などは極力避ける
+          body, header, main, footer は基本的に一つでいいはずなので、
+          css では body {} のように指定するので、 id は不要 class はたまに
+         -->
+        <ul>
           <li><a href="#">PROFILE</a></li>
           <li><a href="#">WORKS</a></li>
-          <li><a href="#NEWS">NEWS</a></li>
-          <li><a href="#TWITTER">TWITTER</a></li>  
-          <li><a href="#INSTAGRAM">INSTAGRAM</a></li>
-      </ul>
-  </div>
-
-  </header>
-  <!-- header end -->
-  
-  
-  <!-- main begin -->  
-  <main>
-  <div>
-      <img class="main_image" src="https://github.com/sainttomtom/portfolio/blob/main/portfolioimage.png?raw=true">
-  </div>
-  </main>
-
-
- <div>
-  <section>
-        <h1 id="NEWS">NEWS</h1>
-        <div class="news_content">
-        <dl>
-              <dt>2022年10月</dt>  
-              <dd>ポートフォリオサイト開設</dd>
-              <dt>2022年9月</dt>  
-              <dd>HTML&CSS学習開始</dd>
-              <dt>2022年9月</dt>  
-              <dd>webデザイン学習開始</dd>
-        </dl>
+          <li><a href="#news">NEWS</a></li>
+          <li><a href="#twitter">TWITTER</a></li>
+          <li><a href="#twitter">INSTAGRAM</a></li>
+        </ul>
       </div>
-  </section>
-</div>
-      
+    </header>
+    <!-- header end -->
 
+    <!-- main begin -->
+    <main>
+      <div class="mainImageWrapper">
+        <img class="mainImage" src="img/portfolioimage.png" />
+      </div>
 
-<main>
+      <div>
+        <!-- 
+          id を振る単位を統一した方がいい 
+          下で div > section に id="twitter" としているので
+          ここも同様に section に振る
+        -->
+        <section id="news">
+          <ul>
+            <li>2022年10月</a></li>
+            <li>ポートフォリオサイト開設</a></li>
+            <li>2022年9月</li>
+            <li>HTML&CSS学習開始</li>
+            <li>webデザイン学習開始</li>
+          </ul>
+        </section>
+      </div>
 
-<div class="container">
+      <div class="container">
+        <!-- TL 載せたくなるよね おれも一番最初やった -->
+        <section id="twitter">
+          <h1 class="twmojisize">TWITTER</h1>
+          <a
+            class="twitter-timeline"
+            data-lang="en"
+            data-width="500"
+            data-height="2956"
+            data-theme="light"
+            href="https://twitter.com/shibuyadada?ref_src=twsrc%5Etfw"
+            >Tweets by shibuyadada</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </section>
 
-<section id="TWITTER">
-  <h1 class="twmojisize" >TWITTER</h1>
-  <a class="twitter-timeline" data-lang="en" data-width="500" data-height="2956" data-theme="light" href="https://twitter.com/shibuyadada?ref_src=twsrc%5Etfw">Tweets by shibuyadada</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section>
+        <section id="instagram">
+          <h1 class="inmojisize">INSTAGRAM</h1>
+          <iframe
+            src="https://snapwidget.com/embed/1012481"
+            class="snapwidget-widget"
+            allowtransparency="true"
+            frameborder="0"
+            scrolling="no"
+            style="border: none; overflow: hidden; width: 530px; height: 2956px"
+          ></iframe>
+        </section>
+      </div>
+    </main>
+    <!-- main end -->
 
-
-
-<section id="INSTAGRAM">
-  <h1 class="inmojisize">INSTAGRAM</h1>
-<iframe src="https://snapwidget.com/embed/1012481" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:530px; height:2956px"></iframe>
-</section>
-
-</div>
-
-
-  </main>
-
-  <!-- main end -->
-
-</body>
-
-
-  <!-- footer begin -->
-<footer id="footer">
-
-<small>TOPへ</small>
-
-<small class="copyrights">&copy;Tom</small>
-
-
-</footer>
-  <!-- footer end -->
-
-
+    <!-- footer begin -->
+    <footer>
+      <p>
+        <!-- 
+          今は small を使っているけど
+          <span>TOPへ</spna> にして
+          css で fotter > p > span {} として font-size の変更などをする方が一般的な気がする
+         -->
+        <small>TOPへ</small>
+        <!-- 
+          他に copyrights を使わないのであれば class -> id でいいと思う
+          範囲を限定してその他への影響を防ぐため(とはいえちゃんとやれるなら全部 class でも OK)
+         -->
+        <small id="copyrights">&copy;Tom</small>
+      </p>
+    </footer>
+    <!-- footer end -->
+  </body>
 </html>
