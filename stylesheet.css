@@ -100,7 +100,7 @@
   /** 480px以下の場合のCSS */
   @media all and (max-width: 480px){
     #all{
-      margin:0;  
+  margin-left: 200px;  
       }
   }
 
