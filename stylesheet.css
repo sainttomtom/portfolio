@@ -207,18 +207,10 @@
     }
   }
 
-  @media screen and (max-width: 480px){
+  @media screen　and (max-width: 480px){
       
   .copyrights{
  text-align: center;
- width: 1000px;
-}
+   width:1000px;     
   }
-
-  @media screen and (max-width: 480px){
-    #footer{
-display: flex;
-  flex-direction: column;
-  justify-content:center;
-  width: 1000px;      }
   }
