@@ -134,8 +134,8 @@
   @media screen and (max-width: 480px){
     .main_image{
   width: 1000px;
-  height: 600px;      }
-    
+  height: 600px;      
+    }
   }
 
 
@@ -165,8 +165,8 @@
     font-size:60px;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 45px;    }
-    
+    margin-bottom: 45px;   
+    }
   }
 
 
@@ -175,7 +175,6 @@
   #TWITTER{
  text-align: center;
     font-size:20px;    }
-    
   }
 
 
@@ -183,30 +182,29 @@
     .twitter-timeline{
   width: 500px;
       }
-    
   }
 
 
   @media screen and (max-width: 480px){
     #INSTAGRAM{
  text-align: center;
-    font-size:500px;      }
-    
+    font-size:500px;      
+    }
   }
 
 
   @media screen and (max-width: 480px){
     .twmojisize{
  font-size: 60px;
-    margin-left: 110px;    }
-    
+    margin-left: 110px;    
+    }
   }
 
   @media screen and (max-width: 480px){
     .inmojisize{
  font-size: 60px;
-    margin-left: 50px;    }
-    
+    margin-left: 50px;    
+    }
   }
 
   @media screen　and (max-width: 480px){
@@ -214,7 +212,6 @@
   .copyrights{
  text-align: center;
    width: 1000px;     }
-    
   }
 
   @media screen and (max-width: 480px){
@@ -223,5 +220,4 @@ display: flex;
   flex-direction: column;
   justify-content:center;
   width: 1000px;      }
-    
   }
