@@ -12,13 +12,10 @@
 
 /* <!-- main begin --> */
 
-main > div {
-  margin: 0 auto;
-}
+
 
 .mainImageWrapper {
   width: max-content;
-  margin: 0 auto;
 }
 
 .mainImage {
