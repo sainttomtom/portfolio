@@ -1,7 +1,7 @@
 
 /* <!-- header begin --> */
 
-  header{
+.list{
   display: flex;
   flex-direction : row;
   justify-content: space-between;
