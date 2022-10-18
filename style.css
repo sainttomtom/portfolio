@@ -1,12 +1,6 @@
 
 /* <!-- header begin --> */
 
-header{
-  width: 1000px;
-  align-items: center;
-  margin: 0 auto;
-}
-  
   header{
   display: flex;
   justify-content: space-between;
