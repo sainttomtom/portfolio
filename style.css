@@ -1,7 +1,7 @@
 
 /* <!-- header begin --> */
 
-ul{
+div{
   display: flex;
   justify-content: space-between;
   list-style: none;
