@@ -1,7 +1,7 @@
 
 /* <!-- header begin --> */
 
-div{
+.class1{
   display: flex;
   justify-content: space-between;
   list-style: none;
